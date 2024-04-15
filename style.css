@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: black;
+    padding: 40px;
+}
+
+.box {
+    width: 300px;
+    margin: auto;
+    background-color: #6800f9;
+    padding: 20px;
+
+}
+
+.question {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+button{
+    cursor:pointer;
+}
+.answer {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    color: black;
+}
+
+.answer:hover {
+    background-color: #a69d9d
+}
+.next {
+    display: flex;
+    justify-content: end;
+}
+.next button {
+    width: 40px;
+    color: black;
+    padding: 4px;
+    margin-left: 60%;
+    display: none;
+}
