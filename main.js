@@ -103,7 +103,6 @@ answers.forEach((element) => {
     }
 
     next.style.display = "block";
-    console.log(next);
   };
 });
 
